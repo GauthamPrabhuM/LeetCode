@@ -23,8 +23,3 @@ while(slow){
 ListNode *t=slow->next;
 slow->next=prev;
 prev=slow;
-slow=t;
-}
-return prev;
-}
-```
